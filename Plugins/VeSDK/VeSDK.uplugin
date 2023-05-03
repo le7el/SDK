@@ -1,0 +1,39 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Metaverse - Editor SDK",
+	"Hidden": true,
+	"Description": "LE7EL SDK code and assets",
+	"Category": "Metaverse",
+	"CreatedBy": "LE7EL AS., Egor A. Pristavka",
+	"CreatedByURL": "https://le7el.com",
+	"DocsURL": "https://docs.le7el.com",
+	"SupportURL": "https://support.le7el.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "VeSDK",
+			"Type": "Editor"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VeShared",
+			"Enabled": true
+		},
+		{
+			"Name": "PluginUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "VeUI",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.metaverse-0.unrealeditor-win64-debuggame.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "X:/UEV/UnrealEngine/Metaverse/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "Metaverse-0 [UE Editor]"
+				}
+			}
+		}
+	]
+}

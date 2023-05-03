@@ -1,0 +1,8 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"VeLiveLink": "UnrealEditor-VeLiveLink.dll",
+		"VeLiveLinkGraphNode": "UnrealEditor-VeLiveLinkGraphNode.dll"
+	}
+}

@@ -1,0 +1,117 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Metaverse - Shared",
+	"Description": "Metaverse shared code library",
+	"Category": "Metaverse",
+	"CreatedBy": "LE7EL AS., Egor A. Pristavka",
+	"CreatedByURL": "https://le7el.com",
+	"DocsURL": "https://docs.le7el.com",
+	"SupportURL": "https://support.le7el.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"Installed": true,
+	"Plugins": [
+		{
+			"Name": "AnimatedTexture",
+			"Enabled": true
+		},
+		{
+			"Name": "VePlatform",
+			"Enabled": true
+		},
+		{
+			"Name": "VeSentry",
+			"Enabled": true
+		},
+		{
+			"Name": "AndroidPermission",
+			"Enabled": true,
+			"PlatformAllowList": [
+				"Android"
+			]
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	],
+	"Modules": [
+		{
+			"Name": "VeShared",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		},
+		{
+			"Name": "VeApi",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeApi2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeBlockchain",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeDownload",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "PakLoader",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VePak",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeMonitoring",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "VeGameFramework",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeRpc",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeSocial",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeQRCode",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeYoutube",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeHttp",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeOAuth",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

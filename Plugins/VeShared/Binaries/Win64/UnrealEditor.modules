@@ -1,0 +1,21 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"PakLoader": "UnrealEditor-PakLoader.dll",
+		"VeApi": "UnrealEditor-VeApi.dll",
+		"VeApi2": "UnrealEditor-VeApi2.dll",
+		"VeBlockchain": "UnrealEditor-VeBlockchain.dll",
+		"VeDownload": "UnrealEditor-VeDownload.dll",
+		"VeGameFramework": "UnrealEditor-VeGameFramework.dll",
+		"VeHttp": "UnrealEditor-VeHttp.dll",
+		"VeMonitoring": "UnrealEditor-VeMonitoring.dll",
+		"VeOAuth": "UnrealEditor-VeOAuth.dll",
+		"VePak": "UnrealEditor-VePak.dll",
+		"VeQRCode": "UnrealEditor-VeQRCode.dll",
+		"VeRpc": "UnrealEditor-VeRpc.dll",
+		"VeShared": "UnrealEditor-VeShared.dll",
+		"VeSocial": "UnrealEditor-VeSocial.dll",
+		"VeYoutube": "UnrealEditor-VeYoutube.dll"
+	}
+}

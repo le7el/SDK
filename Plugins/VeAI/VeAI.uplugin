@@ -1,0 +1,43 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "VeAI",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "VeAI",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VeShared",
+			"Enabled": true,
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "VeInteraction",
+			"Enabled": true
+		},
+		{
+			"Name": "VeUI",
+			"Enabled": true,
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "ALSV4_CPP",
+			"Enabled": true
+		}
+	]
+}

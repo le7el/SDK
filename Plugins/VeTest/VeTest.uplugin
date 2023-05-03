@@ -1,0 +1,45 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0",
+	"FriendlyName": "Metaverse - Test",
+	"Hidden": false,
+	"Description": "Metaverse testing library",
+	"Category": "Metaverse",
+	"CreatedBy": "LE7EL AS., Egor A. Pristavka",
+	"CreatedByURL": "https://le7el.com",
+	"DocsURL": "https://docs.le7el.com",
+	"SupportURL": "https://support.le7el.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "VeTest",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VeShared",
+			"Enabled": true
+		},
+		{
+			"Name": "VeGame",
+			"Enabled": true
+		},
+		{
+			"Name": "Gauntlet",
+			"Enabled": true
+		}
+	]
+}

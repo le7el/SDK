@@ -1,0 +1,8 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"glTFRuntime": "UnrealEditor-glTFRuntime.dll",
+		"glTFRuntimeEditor": "UnrealEditor-glTFRuntimeEditor.dll"
+	}
+}

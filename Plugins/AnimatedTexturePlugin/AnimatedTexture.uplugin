@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.4.8",
+	"FriendlyName": "ThirdParty - Animated Texture with GIF Importer",
+	"Hidden": true,
+	"Description": "Import Animated GIF as a new AnimtedTexture asset type",
+	"EngineVersion": "5.1.0",
+	"Category": "Rendering",
+	"CreatedBy": "neil3d",
+	"CreatedByURL": "http://neil3d.github.io",
+	"DocsURL": "https://neil3d.github.io/coding/anim-texture.html",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4e16df6426df4096aff1f67e3084b929",
+	"SupportURL": "http://neil3d.github.io",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "AnimatedTexture",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Mac",
+				"Win64"
+			]
+		},
+		{
+			"Name": "AnimatedTextureEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Mac",
+				"Win64"
+			]
+		}
+	]
+}

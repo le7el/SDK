@@ -1,0 +1,95 @@
+﻿{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "! Metaverse - Main",
+	"Description": "Metaverse base shared modules and content",
+	"Category": "Metaverse",
+	"CreatedBy": "LE7EL AS., Egor A. Pristavka",
+	"CreatedByURL": "https://le7el.com",
+	"DocsURL": "https://docs.le7el.com",
+	"SupportURL": "https://support.le7el.com",
+	"EnabledByDefault": true,
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VeGame",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "VePlatform",
+			"Enabled": true
+		},
+		{
+			"Name": "VeShared",
+			"Enabled": true
+		},
+		{
+			"Name": "VeInteraction",
+			"Enabled": true
+		},
+		{
+			"Name": "VeUI",
+			"Enabled": true
+		},
+		{
+			"Name": "VeAI",
+			"Enabled": true
+		},
+		{
+			"Name": "VeSDK",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			],
+			"PlatformAllowList": [
+				"Win32",
+				"Win64",
+				"Android"
+			],
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": true,
+			"PlatformAllowList": [
+				"Win32",
+				"Win64",
+				"Android"
+			],
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		},
+		{
+			"Name": "glTFRuntime",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "VeOpenSea",
+			"Enabled": true
+		},
+		{
+			"Name": "ALSV4_CPP",
+			"Enabled": true
+		},
+		{
+			"Name": "VeLiveLink",
+			"Enabled": true
+		}
+	]
+}
