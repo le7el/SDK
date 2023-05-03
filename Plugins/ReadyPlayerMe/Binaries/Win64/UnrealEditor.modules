@@ -1,0 +1,8 @@
+{
+	"BuildId": "23058290",
+	"Modules": 
+	{
+		"ReadyPlayerMe": "UnrealEditor-ReadyPlayerMe.dll",
+		"ReadyPlayerMeEditor": "UnrealEditor-ReadyPlayerMeEditor.dll"
+	}
+}
