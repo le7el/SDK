@@ -38,6 +38,14 @@
 		{
 			"Name": "ALSV4_CPP",
 			"Enabled": true
+		},
+		{
+			"Name": "RuntimeAudioImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
 		}
 	]
 }

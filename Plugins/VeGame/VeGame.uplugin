@@ -90,6 +90,10 @@
 		{
 			"Name": "VeLiveLink",
 			"Enabled": true
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": true
 		}
 	]
 }
