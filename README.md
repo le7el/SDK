@@ -11,6 +11,7 @@ https://le7el.com/eula_sdk/
 ### Resources:
 
 * LE7EL: https://le7el.com
+* Documentation: https://wiki.le7el.com
 * SDK downloads and support: https://github.com/le7el/SDK
 * Feedback: feedback@le7el.com
 
