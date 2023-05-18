@@ -1,4 +1,4 @@
-﻿# LE7EL SDK v1.5.52
+﻿# LE7EL SDK v1.5.53
 
 > Copyright (c) 2023 LE7EL AS. All right reserved.
 
